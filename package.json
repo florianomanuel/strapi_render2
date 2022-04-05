@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "deploy": "git add . & git commit -m 'feat: updated server' & git push heroku main"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
