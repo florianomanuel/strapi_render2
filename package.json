@@ -7,8 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "deploy": "git add . & git commit -m 'feat: updated server' & git push heroku main"
+    "strapi": "strapi"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
@@ -32,7 +31,7 @@
     "uuid": "c242d245-09af-4ba0-8763-b05a18b5277a"
   },
   "engines": {
-    "node": ">=10.0.0",
+    "node": "14.18.0",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
