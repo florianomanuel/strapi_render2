@@ -8,7 +8,8 @@
   "options": {
     "increments": true,
     "timestamps": false,
-    "comment": ""
+    "comment": "",
+    "draftAndPublish": false
   },
   "attributes": {
     "title": {
@@ -32,7 +33,7 @@
       "type": "integer"
     },
     "content": {
-      "type": "string",
+      "type": "text",
       "default": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue."
     },
     "type": {
@@ -46,7 +47,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "large_pictures": {
       "collection": "file",
@@ -55,7 +57,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "pictures": {
       "collection": "file",
@@ -64,7 +67,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "small_pictures": {
       "collection": "file",
@@ -73,7 +77,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "blog_categories": {
       "collection": "blog-categories",
