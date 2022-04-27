@@ -35,7 +35,7 @@
     },
     "stock": {
       "type": "biginteger",
-      "default": "1000"
+      "default": "10"
     },
     "ratings": {
       "type": "decimal",
@@ -47,7 +47,7 @@
     },
     "sale_count": {
       "type": "biginteger",
-      "default": "30"
+      "default": "5"
     },
     "sku": {
       "type": "string"
