@@ -61,9 +61,6 @@
     },
     "telephone": {
       "type": "biginteger"
-    },
-    "address": {
-      "type": "string"
     }
   }
 }
