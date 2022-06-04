@@ -49,6 +49,9 @@
     },
     "notes": {
       "type": "richtext"
+    },
+    "reference": {
+      "type": "string"
     }
   }
 }
