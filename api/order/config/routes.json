@@ -18,12 +18,14 @@
     },
     {
       "method": "GET",
-      "path": "/orders/:id",
+      "path": "/orders/:email",
       "handler": "order.findOne",
       "config": {
         "policies": []
       }
     },
+    
+ 
     {
       "method": "POST",
       "path": "/orders",
